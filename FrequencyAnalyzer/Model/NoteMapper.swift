@@ -5,6 +5,7 @@ struct NoteInfo {
     let octave: Int
     let cents: Float
     let targetFrequency: Float
+    let midiNote: Int
 }
 
 enum NoteMapper {
@@ -25,7 +26,8 @@ enum NoteMapper {
             name: noteNames[noteIndex],
             octave: octave,
             cents: cents,
-            targetFrequency: targetFrequency
+            targetFrequency: targetFrequency,
+            midiNote: midiNote
         )
     }
 }
