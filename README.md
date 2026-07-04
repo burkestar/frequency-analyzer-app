@@ -2,6 +2,10 @@
 
 Real-time audio frequency analyzer and instrument tuner for iPhone. Detects pitch from the microphone and displays the frequency in Hz, the closest musical note (e.g., A4, E2, C#3), and a visual gauge showing how sharp or flat you are in cents.
 
+> [!WARNING]  
+> This repository was vibecoded using Claude Code and should be considered ALPHA quality.
+> No test coverage, no agent harness, no automated tests or guardrails.
+
 ## Features
 
 - Real-time pitch detection using the YIN algorithm (autocorrelation-based, sub-Hz accuracy)
